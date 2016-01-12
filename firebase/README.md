@@ -1,7 +1,7 @@
 #Firebase
 
 ##Table of contents
-- Installation
+- How to install
   - CLI
     - bower
     - npm
@@ -13,4 +13,13 @@
     - Android
   - REST
 - Account
+  - Login
+    - Email & Password
+    - Facebook
+    - Twitter
+    - GitHub
+    - Google
+    - Anonnymous
+    - Custom
+  - Security & Rules
 - Hosting
