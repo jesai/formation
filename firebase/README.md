@@ -69,6 +69,10 @@ $ npm install firebase --save
 
 ## How to use
 
+## Create an account
+
+The first thing you need to do to get started with Firebase is sign up for a free account. A brand new Fase app will automatically be created for you with its own unique database URL ending in `firebaseio.com`. We'll use this database URL to store and sync data.
+
 ### Web
 
 #### AngularFire (AngularJS)
@@ -119,7 +123,7 @@ AngularFire is a complement to the core Firebase client. It provides you with th
         // ...
       }
     ]);
-  ```
+  ``
 
 #### EmberFire (Ember)
 
