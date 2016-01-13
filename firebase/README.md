@@ -8,10 +8,10 @@
   - [CDN](#cdn)
 - [How to use](#how-to-use)
   - [WEB](web)
-    - [AngularFire (AngularJs)](#angularfire)
+    - [AngularFire](#angularFire) (AngularJS)
     - [EmberFire (Ember)](#emberfire)
     - [BackBoneFire (Backbone.js)](#backbonefire)
-    - [ReactFire (ReactJs)](#reactfire)
+    - [ReactFire (ReactJS)](#reactfire)
     - [Ionic](#ionic)
   - MOBILE
     - iOS
