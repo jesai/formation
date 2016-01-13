@@ -80,6 +80,33 @@ AngularFire is a complement to the core Firebase client. It provides you with th
   * `$firebaseArray` - synchronized collections
   * `$firebaseAuth` - authentication, user management, routing
 
+  ##### Downloading AngularFire
+
+  In order to use AngularFire in your project, you need to include the followinf files in your HTML
+
+  ```html
+  <!-- AngularJS -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+
+  <!-- Firebase -->
+  <script type="text/javascript" src="https://cdn.firebase.com/js/client/2.3.0/firebase.js"></script>
+
+  <!-- AngularFire -->
+  <script type="text/javascript" src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
+  ```
+
+  You can also install AngularFire via npm and Bower and its dependencies will be downloaded automatically
+
+  ```bash
+  $ npm install angularfire --save
+  ```
+
+  ```bash
+  $ bower install angularfire --save
+  ```
+
+  Once you've inclueded AngularFire anbd its dependencies into your project, you will have access to the `$firebase`service
+
 #### EmberFire (Ember)
 
 > EmberFire is the officially supported adapter for using Firebase with Ember Data. The DS.FirebaseAdapter provides all of the standard DS.Adapter methods and will automatically synchronize the store with a Firebase database.
