@@ -5,6 +5,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [Introduction](#introduction)
 - [How to install](#how-to-install)
   - [CLI](#cli)
     - [Bower](#bower)
@@ -33,6 +34,18 @@
   - [Security & Rules](#security-&-rules)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+##Introduction
+
+Firebase can power your app's backend, including data storage, user authentication, static hosting, and more. We provide these services so you can focus on creating extraordinary user experiences.
+
+###### Realtime Database
+Store & sync data with our NoSQL cloud database. Data is stored as JSON, synced to all connected clients in realtime, and available when your app goes offline.
+
+###### Authentication
+Authenticate users with email & password, Facebook, Twitter, GitHub, Google, anonymous auth, or easily integrate with your existing authentication system.
+
+###### Hosting
+Deploy your web app in seconds with our production-grade static asset hosting. From acquiring the SSL cert to serving your content on our global CDN, we do it all for you.
 
 ## How to install
 
