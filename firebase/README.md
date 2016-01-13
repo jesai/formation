@@ -1,11 +1,11 @@
 #Firebase
 
 ##Table of contents
-- How to install
-  - CLI
-    - bower
-    - npm
-  - CDN
+- [How to install](#how-to-install)
+  - [CLI](#cli)
+    - [bower](#bower)
+    - [npm](#npm)
+  - [CDN](#cdn)
 - How to use
   - WEB
   - MOBILE
