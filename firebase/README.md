@@ -1,33 +1,38 @@
 #Firebase
 
 ##Table of contents
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
 - [How to install](#how-to-install)
   - [CLI](#cli)
-    - [bower](#bower)
-    - [npm](#npm)
-  - [CDN](#cdn)
+    - [Bower](#bower)
+    - [Npm](#npm)
+    - [CDN](#cdn)
 - [How to use](#how-to-use)
-  - [WEB](web)
-    - [AngularFire](#angularFire) (AngularJS)
-    - [EmberFire (Ember)](#emberfire)
-    - [BackBoneFire (Backbone.js)](#backbonefire)
-    - [ReactFire (ReactJS)](#reactfire)
+  - [Web](#web)
+    - [AngularFire (AngularJS)](#angularfire-angularjs)
+    - [EmberFire (Ember)](#emberfire-ember)
+    - [BackboneFire (Backbone.js)](#backbonefire-backbonejs)
+    - [ReactFire (ReactJS)](#reactfire-reactjs)
     - [Ionic](#ionic)
-  - MOBILE
-    - iOS
-    - Android
-  - REST
-- Account
-  - Login
-    - Email & Password
-    - Facebook
-    - Twitter
-    - GitHub
-    - Google
-    - Anonnymous
-    - Custom
-  - Security & Rules
-- Hosting
+  - [Mobile](#mobile)
+    - [iOS](#ios)
+    - [Android](#android)
+  - [REST](#rest)
+- [Account](#account)
+  - [Login](#login)
+    - [Email & Password](#email-&-password)
+    - [Facebook](#facebook)
+    - [Twitter](#twitter)
+    - [Github](#github)
+    - [Google](#google)
+    - [Anonymous](#anonymous)
+    - [Custom](#custom)
+  - [Security & Rules](#security-&-rules)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## How to install
 
@@ -72,3 +77,31 @@ $ npm install firebase --save
 #### Ionic
 
 > Ionic is a front-end SDK for developing hybrid mobile apps with HTML5. Because Ionic uses Angular, developers can use AngularFire to easily wire up a Firebase backend with an Ionic app.
+
+### Mobile
+
+#### iOS
+
+#### Android
+
+### REST
+
+## Account
+
+### Login
+
+#### Email & Password
+
+#### Facebook
+
+#### Twitter
+
+#### Github
+
+#### Google
+
+#### Anonymous
+
+#### Custom
+
+### Security & Rules
