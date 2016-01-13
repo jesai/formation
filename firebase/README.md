@@ -23,3 +23,23 @@
     - Custom
   - Security & Rules
 - Hosting
+
+## How to install
+
+### CLI
+
+#### Bower
+
+```bash
+$ bower install firebase --save
+```
+
+#### Npm
+```bash
+$ npm install firebase --save
+```
+
+#### CDN
+```javascript
+<script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+```
