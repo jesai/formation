@@ -73,7 +73,12 @@ $ npm install firebase --save
 
 #### AngularFire (AngularJS)
 
-> AngularFire is the officially supported AngularJS binding for Firebase. Firebase is a full backend so you don't need servers to build your Angular app!
+AngularFire is the officially supported AngularJS binding for Firebase. Firebase is a full backend so you don't need servers to build your Angular app!
+
+AngularFire is a complement to the core Firebase client. It provides you with three Angular services:
+  * `$firebaseObject` - synchronized objects
+  * `$firebaseArray` - synchronized collections
+  * `$firebaseAuth` - authentication, user management, routing
 
 #### EmberFire (Ember)
 
