@@ -82,7 +82,7 @@ AngularFire is a complement to the core Firebase client. It provides you with th
 
   ##### Downloading AngularFire
 
-  In order to use AngularFire in your project, you need to include the followinf files in your HTML
+  In order to use AngularFire in your project, you need to include the following files in your HTML
 
   ```html
   <!-- AngularJS -->
@@ -105,7 +105,21 @@ AngularFire is a complement to the core Firebase client. It provides you with th
   $ bower install angularfire --save
   ```
 
-  Once you've inclueded AngularFire anbd its dependencies into your project, you will have access to the `$firebase`service
+  Once we have our libraries installed, we can include the AngularFire services by declaring `firebase` as a module dependency in our application.
+
+  ```javascript
+  var app = angular.module("sampleApp", ['firebase']);
+  ```
+
+  We now will have access to thress services provided by AngularFire: `$firebaseObject`, `$firebaseArray` and `$firebaseAuth`. To use these services, we nedd to inject then into a controller, factory or service.
+
+  ```javascript
+  app.controller("SampleController", ["$scope", "$firebaseArray",
+    function($scope, $firebaseArray){
+        // ...
+      }
+    ]);
+  ```
 
 #### EmberFire (Ember)
 
